@@ -20,7 +20,7 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=8, decimal_places=2)
     avalaibleData = models.DateField()
     # dynamic add this after commit the shopping list
-    order = models.ManyToManyField(Order, through='LineItem', blank=True, null=True)
+    # order = models.ManyToManyField(Order, through='LineItem', blank=True, null=True)
 
     def __unicode__(self):
         return self.title

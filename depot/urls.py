@@ -16,6 +16,9 @@ admin.autodiscover()
 urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
 
+    url(r'^$', index),
+    url(r'^uploadsuc/$', uploadsuccess),
+
     (r'product/create/$', create_product),
     (r'product/list/$', list_product),
     (r'product/edit/(?P<id>[^/]+)/$', edit_product),

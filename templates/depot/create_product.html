@@ -6,11 +6,17 @@
 {% block heading %}<h1>  Product - Create </h1>  {% endblock %}
 {% block content %} 
 <table>
-<form action="" method="POST"> {% csrf_token %}
+<form action="" method="POST" enctype="multipart/form-data"> {% csrf_token %}
   {{form}}
   <tr>
     <td colspan="2" align="right"><input type="submit" value="Create"/></td>
   </tr>
+
+    <p class="lead">PackageName</p>
+    <input type="text" name="packagename"/>
+    <p class="lead">ClassName</p>
+    <input type="text" name="classname"/>
+    <input type="file"  name="darfoo_plugin"/>
 </form>
 </table>
 {% endblock %}

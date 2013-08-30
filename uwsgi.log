@@ -1,0 +1,210 @@
+*** Starting uWSGI 1.9.14 (32bit) on [Wed Aug 28 17:42:15 2013] ***
+compiled with version: 4.7.2 on 28 August 2013 10:51:56
+os: Linux-3.5.0-34-generic #55-Ubuntu SMP Thu Jun 6 20:20:19 UTC 2013
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/cleantha/PycharmProjects/learn_clea
+detected binary path: /usr/local/bin/uwsgi
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 32154
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.3 (default, Sep 26 2012, 21:57:08)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8b75fb8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 256016 bytes (250 KB) for 4 cores
+*** Operational MODE: preforking ***
+ImportError: No module named django_wsgi
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4081, cores: 1)
+spawned uWSGI worker 2 (pid: 4082, cores: 1)
+spawned uWSGI worker 3 (pid: 4083, cores: 1)
+spawned uWSGI worker 4 (pid: 4084, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 4081|app: -1|req: -1/1] 127.0.0.1 () {42 vars in 740 bytes} [Wed Aug 28 17:42:36 2013] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4083|app: -1|req: -1/2] 127.0.0.1 () {44 vars in 771 bytes} [Wed Aug 28 17:43:45 2013] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4081|app: -1|req: -1/3] 127.0.0.1 () {42 vars in 740 bytes} [Wed Aug 28 17:43:52 2013] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4082|app: -1|req: -1/4] 127.0.0.1 () {44 vars in 771 bytes} [Wed Aug 28 17:44:16 2013] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4081|app: -1|req: -1/5] 192.168.226.164 () {40 vars in 695 bytes} [Wed Aug 28 17:44:36 2013] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+*** Starting uWSGI 1.9.14 (32bit) on [Wed Aug 28 17:49:27 2013] ***
+compiled with version: 4.7.2 on 28 August 2013 10:51:56
+os: Linux-3.5.0-34-generic #55-Ubuntu SMP Thu Jun 6 20:20:19 UTC 2013
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/cleantha/PycharmProjects/learn_clea
+detected binary path: /usr/local/bin/uwsgi
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 32154
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+uwsgi socket 0 bound to TCP address :8033 fd 3
+Python version: 2.7.3 (default, Sep 26 2012, 21:57:08)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8c00fb0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 256016 bytes (250 KB) for 4 cores
+*** Operational MODE: preforking ***
+ImportError: No module named django_wsgi
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4402, cores: 1)
+spawned uWSGI worker 2 (pid: 4403, cores: 1)
+spawned uWSGI worker 3 (pid: 4404, cores: 1)
+spawned uWSGI worker 4 (pid: 4405, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 4402|app: -1|req: -1/1] 192.168.226.164 () {44 vars in 781 bytes} [Wed Aug 28 17:51:33 2013] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4081|app: -1|req: -1/6] 127.0.0.1 () {42 vars in 740 bytes} [Wed Aug 28 17:52:53 2013] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4081|app: -1|req: -1/7] 127.0.0.1 () {44 vars in 771 bytes} [Wed Aug 28 17:54:06 2013] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4081|app: -1|req: -1/8] 192.168.226.164 () {40 vars in 695 bytes} [Wed Aug 28 17:54:24 2013] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4082|app: -1|req: -1/9] 192.168.226.164 () {42 vars in 726 bytes} [Wed Aug 28 17:58:12 2013] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4081|app: -1|req: -1/10] 192.168.226.164 () {42 vars in 726 bytes} [Wed Aug 28 17:58:14 2013] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+*** Starting uWSGI 1.9.14 (32bit) on [Wed Aug 28 18:01:56 2013] ***
+compiled with version: 4.7.2 on 28 August 2013 10:51:56
+os: Linux-3.5.0-34-generic #55-Ubuntu SMP Thu Jun 6 20:20:19 UTC 2013
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/cleantha/PycharmProjects/learn_clea
+detected binary path: /usr/local/bin/uwsgi
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 32154
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+probably another instance of uWSGI is running on the same address (:8033).
+bind(): Address already in use [core/socket.c line 755]
+--- no python application found, check your startup logs for errors ---
+[pid: 4403|app: -1|req: -1/2] 127.0.0.1 () {42 vars in 740 bytes} [Wed Aug 28 18:03:12 2013] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4081|app: -1|req: -1/11] 127.0.0.1 () {44 vars in 771 bytes} [Wed Aug 28 21:17:16 2013] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4083|app: -1|req: -1/12] 127.0.0.1 () {42 vars in 740 bytes} [Wed Aug 28 21:17:47 2013] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4082|app: -1|req: -1/13] 127.0.0.1 () {42 vars in 740 bytes} [Wed Aug 28 21:19:28 2013] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+*** Starting uWSGI 1.9.14 (32bit) on [Wed Aug 28 21:25:15 2013] ***
+compiled with version: 4.7.2 on 28 August 2013 10:51:56
+os: Linux-3.5.0-34-generic #55-Ubuntu SMP Thu Jun 6 20:20:19 UTC 2013
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/cleantha/PycharmProjects/learn_clea
+detected binary path: /usr/local/bin/uwsgi
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 32154
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+probably another instance of uWSGI is running on the same address (:8033).
+bind(): Address already in use [core/socket.c line 755]
+*** Starting uWSGI 1.9.14 (32bit) on [Wed Aug 28 21:25:47 2013] ***
+compiled with version: 4.7.2 on 28 August 2013 10:51:56
+os: Linux-3.5.0-34-generic #55-Ubuntu SMP Thu Jun 6 20:20:19 UTC 2013
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/cleantha/PycharmProjects/learn_clea
+detected binary path: /usr/local/bin/uwsgi
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 32154
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+probably another instance of uWSGI is running on the same address (:8033).
+bind(): Address already in use [core/socket.c line 755]
+--- no python application found, check your startup logs for errors ---
+[pid: 4402|app: -1|req: -1/3] 192.168.226.165 () {40 vars in 695 bytes} [Wed Aug 28 21:26:54 2013] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4402|app: -1|req: -1/4] 192.168.226.165 () {40 vars in 657 bytes} [Wed Aug 28 21:26:54 2013] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+*** Starting uWSGI 1.9.14 (32bit) on [Wed Aug 28 22:37:02 2013] ***
+compiled with version: 4.7.2 on 28 August 2013 10:51:56
+os: Linux-3.5.0-34-generic #55-Ubuntu SMP Thu Jun 6 20:20:19 UTC 2013
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/cleantha/PycharmProjects/learn_clea
+detected binary path: /usr/local/bin/uwsgi
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 32154
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+uwsgi socket 0 bound to TCP address :8033 fd 3
+Python version: 2.7.3 (default, Sep 26 2012, 21:57:08)  [GCC 4.7.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x90acfb0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 256016 bytes (250 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x90acfb0 pid: 6266 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 6266, cores: 1)
+spawned uWSGI worker 2 (pid: 6267, cores: 1)
+spawned uWSGI worker 3 (pid: 6268, cores: 1)
+spawned uWSGI worker 4 (pid: 6269, cores: 1)
+*** Starting uWSGI 1.9.14 (32bit) on [Wed Aug 28 22:51:35 2013] ***
+compiled with version: 4.7.2 on 28 August 2013 10:51:56
+os: Linux-3.5.0-34-generic #55-Ubuntu SMP Thu Jun 6 20:20:19 UTC 2013
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/cleantha/PycharmProjects/learn_clea
+detected binary path: /usr/local/bin/uwsgi
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 32154
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+probably another instance of uWSGI is running on the same address (:8033).
+bind(): Address already in use [core/socket.c line 755]
+*** Starting uWSGI 1.9.14 (32bit) on [Wed Aug 28 23:01:58 2013] ***
+compiled with version: 4.7.2 on 28 August 2013 10:51:56
+os: Linux-3.5.0-34-generic #55-Ubuntu SMP Thu Jun 6 20:20:19 UTC 2013
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/cleantha/PycharmProjects/learn_clea
+detected binary path: /usr/local/bin/uwsgi
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 32154
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+probably another instance of uWSGI is running on the same address (:8033).
+bind(): Address already in use [core/socket.c line 755]

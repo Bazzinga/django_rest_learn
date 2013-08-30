@@ -4,9 +4,9 @@
     <list default="true" id="053abae9-8efa-419c-a209-521841150f75" name="Default" comment="" />
     <ignored path="learn.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/urls.py" changelist="053abae9-8efa-419c-a209-521841150f75" time="1377521959730" ignored="false" />
+    <file path="/urls.py" changelist="053abae9-8efa-419c-a209-521841150f75" time="1377833393498" ignored="false" />
     <file path="/cleantha.py" changelist="053abae9-8efa-419c-a209-521841150f75" time="1377318335426" ignored="false" />
-    <file path="/views.py" changelist="053abae9-8efa-419c-a209-521841150f75" time="1377518919568" ignored="false" />
+    <file path="/views.py" changelist="053abae9-8efa-419c-a209-521841150f75" time="1377834212624" ignored="false" />
     <file path="/models.py" changelist="053abae9-8efa-419c-a209-521841150f75" time="1377507795929" ignored="false" />
     <file path="/settings.py" changelist="053abae9-8efa-419c-a209-521841150f75" time="1377507085829" ignored="false" />
     <file path="/productlist.html" changelist="053abae9-8efa-419c-a209-521841150f75" time="1377350904037" ignored="false" />
@@ -18,6 +18,9 @@
     <file path="/resource.py" changelist="053abae9-8efa-419c-a209-521841150f75" time="1377448204239" ignored="false" />
     <file path="/serializers.py" changelist="053abae9-8efa-419c-a209-521841150f75" time="1377506464906" ignored="false" />
     <file path="/atom_order.xml" changelist="053abae9-8efa-419c-a209-521841150f75" time="1377510620620" ignored="false" />
+    <file path="/django_uwsgi.py" changelist="053abae9-8efa-419c-a209-521841150f75" time="1377682360889" ignored="false" />
+    <file path="/django_socket.xml" changelist="053abae9-8efa-419c-a209-521841150f75" time="1377696224853" ignored="false" />
+    <file path="/create_product.html" changelist="053abae9-8efa-419c-a209-521841150f75" time="1377833049175" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,39 +40,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/depot/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="4" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#80#104#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_product.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/depot/list_product.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="586" selection-end="586" vertical-scroll-proportion="-10.392858">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="serializers.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/depot/serializers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="21" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="25" selection-start="1137" selection-end="1137" vertical-scroll-proportion="-4.5094337">
+            <state line="29" column="24" selection-start="651" selection-end="651" vertical-scroll-proportion="0.16926503">
               <folding />
             </state>
           </provider>
@@ -78,16 +52,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learn/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="27" selection-start="4765" selection-end="4765" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="store.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/depot/store.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="34" selection-start="279" selection-end="279" vertical-scroll-proportion="-6.785714">
+            <state line="107" column="22" selection-start="3813" selection-end="3813" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,16 +61,25 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/depot/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
+            <state line="16" column="24" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/depot/forms.py">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learnlearn/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="16" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+            <state line="14" column="41" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="django_uwsgi.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django_uwsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="30" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,21 +88,46 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learn/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="24" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+            <state line="19" column="33" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="django_socket.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django_socket.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="8" selection-start="204" selection-end="204" vertical-scroll-proportion="-4.071429">
               <folding>
-                <element signature="e#0#51#0" expanded="true" />
+                <marker date="1377696225887" expanded="true" signature="6:203" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="create_product.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/depot/create_product.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="41" selection-start="509" selection-end="509" vertical-scroll-proportion="-11.535714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learn/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/depot/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="5" selection-start="546" selection-end="546" vertical-scroll-proportion="0.28275862">
-              <folding>
-                <element signature="e#1#40#0" expanded="true" />
-              </folding>
+            <state line="19" column="29" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,30 +142,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/learn/views.py" />
-        <option value="$PROJECT_DIR$/templates/productlist.html" />
-        <option value="$PROJECT_DIR$/depot/tests.py" />
         <option value="$PROJECT_DIR$/templates/depot/view_cart.html" />
         <option value="$PROJECT_DIR$/depot/resource.py" />
         <option value="$PROJECT_DIR$/depot/forms.py" />
         <option value="$PROJECT_DIR$/depot/serializers.py" />
-        <option value="$PROJECT_DIR$/depot/models.py" />
         <option value="$PROJECT_DIR$/templates/depot/atom_order.html" />
         <option value="$PROJECT_DIR$/templates/depot/atom_order.xml" />
         <option value="$PROJECT_DIR$/templates/depot/store.html" />
         <option value="$PROJECT_DIR$/learn/settings.py" />
         <option value="$PROJECT_DIR$/learn/urls.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/depot/views.py" />
+        <option value="$PROJECT_DIR$/django_uwsgi.py" />
+        <option value="$PROJECT_DIR$/django_socket.xml" />
         <option value="$PROJECT_DIR$/depot/urls.py" />
+        <option value="$PROJECT_DIR$/depot/models.py" />
+        <option value="$PROJECT_DIR$/templates/depot/create_product.html" />
+        <option value="$PROJECT_DIR$/depot/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="370" />
-    <option name="y" value="27" />
-    <option name="width" value="1527" />
-    <option name="height" value="875" />
+    <option name="x" value="104" />
+    <option name="y" value="52" />
+    <option name="width" value="1537" />
+    <option name="height" value="905" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -194,6 +193,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,7 +254,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learn" />
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,7 +268,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="django-groundwork" />
+              <option name="myItemId" value="learnlearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn_clea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,29 +300,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn_clea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cleantha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../restframequickstart" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -432,7 +431,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
       <method />
@@ -496,23 +495,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="370" y="27" width="1527" height="875" extended-state="0" />
-    <editor active="true" />
+    <frame x="104" y="52" width="1537" height="905" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24070318" sideWeight="0.6629986" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18108653" sideWeight="0.6793893" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3989432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25520483" sideWeight="0.4266843" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33700138" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32061067" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -577,95 +576,25 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/depot/view_product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="7" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery-1.7.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/depot/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/depot/view_cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/productlist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="44" selection-start="1761" selection-end="1761" vertical-scroll-proportion="-7.464286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/depot/atom_order.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="775" selection-end="775" vertical-scroll-proportion="-10.178572">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/depot/list_product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="586" selection-end="586" vertical-scroll-proportion="-10.392858">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="27" selection-start="4765" selection-end="4765" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/depot/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/depot/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="19" column="0" selection-start="586" selection-end="586" vertical-scroll-proportion="-10.392858" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/depot/store.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="279" selection-end="279" vertical-scroll-proportion="-6.785714">
+        <state line="10" column="34" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="25" selection-start="1137" selection-end="1137" vertical-scroll-proportion="-4.5094337">
+        <state line="28" column="25" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -677,21 +606,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/depot/views.py">
+    <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="4" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/depot/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="23" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_uwsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnlearn/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="41" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="33" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_socket.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="8" selection-start="204" selection-end="204" vertical-scroll-proportion="-4.071429">
           <folding>
-            <element signature="e#80#104#0" expanded="true" />
+            <marker date="1377696225887" expanded="true" signature="6:203" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/depot/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="546" selection-end="546" vertical-scroll-proportion="0.28275862">
-          <folding>
-            <element signature="e#1#40#0" expanded="true" />
-          </folding>
+        <state line="19" column="29" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/depot/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="24" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/depot/create_product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="41" selection-start="509" selection-end="509" vertical-scroll-proportion="-11.535714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="22" selection-start="3813" selection-end="3813" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/depot/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="24" selection-start="651" selection-end="651" vertical-scroll-proportion="0.16926503">
+          <folding />
         </state>
       </provider>
     </entry>

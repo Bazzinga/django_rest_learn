@@ -1,0 +1,7 @@
+<uwsgi>
+    <socket>:8033</socket>
+    <chdir>/home/cleantha/PycharmProjects/learn_clea</chdir>
+    <module>django_uwsgi</module>
+    <processes>4</processes>
+    <daemonize>uwsgi.log</daemonize>
+</uwsgi>

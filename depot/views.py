@@ -21,18 +21,38 @@ from forms import *
 
 from django.contrib.auth.decorators import login_required
 
+import os
 
 def create_product(request):
     form = ProductForm(request.POST or None)
+
+    file_obj = request.FILES.get('darfoo_plugin', None)
+    if file_obj == None:
+        pass
+    else:
+        filefilename = str(file_obj)
+        print 'filename===> ' + filefilename
+        print type(file_obj)
+        packageName = request.POST['packagename']
+        classname = request.POST['classname']
+        print 'successful upload file'
+        print 'packagename is %s, classname is %s' % (str(packageName), str(classname))
+
+        file_name = str(file_obj)
+        file_full_path = str(os.path.join(os.path.dirname(__file__), '../plugins').replace('\\', '/')) + '/%s' % str(file_name)
+        dest = open(file_full_path, 'wb+')
+        dest.write(file_obj.read())
+        dest.close()
+
     if form.is_valid():
         form.save()
         form = ProductForm()
 
     t = get_template('depot/create_product.html')
-    c = RequestContext(request,locals())
+    c = RequestContext(request, locals())
     return HttpResponse(t.render(c))
 
-@login_required()
+# @login_required()
 def list_product(request):
 
     list_items = Product.objects.all()
@@ -301,7 +321,9 @@ def showPOManytoMany(request):
     product = Product.objects.get(id=1)
     print product.order.all()
 
-    return HttpResponse('manytomany')
+    response = HttpResponse('manytomany')
+    response.status_code = 404
+    return response
 
 def atom_of_order(request, id):
     product = Product.objects.get(id=id)
@@ -331,3 +353,11 @@ def login_view(request):
 def logout_view(request):
     logout(request)
     return store_view(request)
+
+from django.shortcuts import render_to_response
+
+def index(request):
+    return render_to_response('base.html', {})
+
+def uploadsuccess(request):
+    return HttpResponse('upload successful')
